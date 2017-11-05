@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = 3000;
+const PORT = 80;
 const register = require("./facade/FriendFacade");
 const bodyParser = require('body-parser')
 
